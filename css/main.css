@@ -1,0 +1,93 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@font-face {
+    font-family: plutoMedium;
+    src: url(../fonts/PlutoMedium.otf);
+}
+@font-face {
+    font-family: plutoLight;
+    src: url(../fonts/PlutoExtraLight.otf);
+}
+
+body{ 
+    color: #454F57 !important;
+    font-family: plutoMedium !important;
+    font-size:16px;
+    padding:50px 0;
+}
+span,
+input {
+    font-family: plutoLight;
+    font-weight: 700;
+}
+h4 {
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#logo {
+	padding-bottom:25px;
+}
+#logo h4,
+.feature h5 {
+	color:#9BA1A1;
+}
+.feature {
+	padding:15px 0;
+}
+.feature h5 {
+	font-size: 16px;
+	margin-top:3%;
+	margin-left:-5%;
+}
+#mc_embed_signup {
+	background: #454F57;
+    border-radius: 3px;
+    padding: 10px;
+    color: #BABABA;
+}
+#mc_embed_signup .mc-field-group input {
+    padding: 25px 0;
+    font-size: 18px;
+    background: lightgray;
+    color:#454F57;
+}
+#mc_embed_signup .button {
+	background-color: #E4C435;
+	height: 54px;
+	width: 96%;
+	transition: all 0.3s ease-in-out;
+	font-size: 18px;
+	font-family: plutoMedium !important;
+}
+#mc_embed_signup .button:hover {
+	background-color: #F4866D;
+}
+
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	color: #94a3a8;
+	font-family: plutoLight;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
